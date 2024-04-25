@@ -1,0 +1,58 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.3457054557092607,
+        "y": 6.514774562567992
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.345423902256756,
+        "y": 6.518800964525692
+      },
+      "isLocked": false,
+      "linkedName": "Auto_4Piece_OpenSidePt2_End"
+    },
+    {
+      "anchor": {
+        "x": 2.891016353229575,
+        "y": 7.025722568541521
+      },
+      "prevControl": {
+        "x": 2.53115840031798,
+        "y": 6.667921817565333
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Auto_4Piece_OpenSidePt3_End"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.55,
+      "rotationDegrees": 45.0,
+      "rotateFast": true
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.6,
+    "maxAcceleration": 1.8,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 45.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Auto_4PieceOpenSide",
+  "previewStartingState": {
+    "rotation": 33.68,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

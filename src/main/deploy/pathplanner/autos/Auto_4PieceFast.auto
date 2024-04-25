@@ -1,0 +1,67 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.27,
+      "y": 5.5547088975958605
+    },
+    "rotation": 0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "ScoreSpeakerCenter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "EnableShooter"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Auto_4PieceFastPart1"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Auto_4PieceFastPart2"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Auto_4PieceFastPart3"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Auto_4PieceFastPart4"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "DisableShooter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "intakeDown"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Fast",
+  "choreoAuto": false
+}

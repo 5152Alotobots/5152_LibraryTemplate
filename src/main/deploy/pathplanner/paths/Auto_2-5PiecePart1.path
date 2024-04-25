@@ -1,0 +1,58 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.9215121768981747,
+        "y": 4.554413505937861
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 4.650952606743232,
+        "y": 4.446486597126183
+      },
+      "isLocked": false,
+      "linkedName": "Auto_2-5PieceShootPos"
+    },
+    {
+      "anchor": {
+        "x": 7.930284872951822,
+        "y": 7.446534652798079
+      },
+      "prevControl": {
+        "x": 6.218587570680167,
+        "y": 7.446534652798079
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Auto_2-5PiecePart1_End"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.35,
+      "rotationDegrees": 30.0,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.5,
+    "maxAcceleration": 2.75,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Auto_2-5Piece",
+  "previewStartingState": {
+    "rotation": -45.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

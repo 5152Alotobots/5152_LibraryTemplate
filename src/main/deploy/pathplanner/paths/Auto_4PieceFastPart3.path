@@ -1,0 +1,138 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.5351204188552248,
+        "y": 4.102667200027796
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.7149825816455881,
+        "y": 4.143163601038287
+      },
+      "isLocked": false,
+      "linkedName": "Auto_4PieceFastPart2_End"
+    },
+    {
+      "anchor": {
+        "x": 1.35,
+        "y": 5.54
+      },
+      "prevControl": {
+        "x": 1.35,
+        "y": 4.6517637547511885
+      },
+      "nextControl": {
+        "x": 1.35,
+        "y": 5.84
+      },
+      "isLocked": false,
+      "linkedName": "Auto_4PieceFast_ShootPos"
+    },
+    {
+      "anchor": {
+        "x": 2.5351204188552248,
+        "y": 5.543013323644571
+      },
+      "prevControl": {
+        "x": 1.6969630165675427,
+        "y": 5.56263293467035
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Auto_4PieceFastPart3_End"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [
+    {
+      "name": "Shoot",
+      "minWaypointRelativePos": 0.45,
+      "maxWaypointRelativePos": 1.1,
+      "constraints": {
+        "maxVelocity": 1.5,
+        "maxAcceleration": 2.75,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0
+      }
+    }
+  ],
+  "eventMarkers": [
+    {
+      "name": "Intake",
+      "waypointRelativePos": 1.35,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "intakeDown"
+              }
+            },
+            {
+              "type": "named",
+              "data": {
+                "name": "IntakeIntakeNote"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Shoot",
+      "waypointRelativePos": 0.8,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "ShootImmediately"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Transfer",
+      "waypointRelativePos": 0,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "TransferNoteToShooter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.5,
+    "maxAcceleration": 2.75,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Auto_4PieceFastMiddle",
+  "previewStartingState": {
+    "rotation": 0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

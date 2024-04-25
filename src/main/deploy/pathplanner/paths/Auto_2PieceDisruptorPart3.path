@@ -1,0 +1,58 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.30393369807966,
+        "y": 7.4732401815923915
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.128585660477792,
+        "y": 7.055666285566383
+      },
+      "isLocked": false,
+      "linkedName": "Auto_2PieceDisruptorPart2_End"
+    },
+    {
+      "anchor": {
+        "x": 0.9033021301555413,
+        "y": 6.518774677438382
+      },
+      "prevControl": {
+        "x": 1.49620768149074,
+        "y": 8.92685752634452
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.65,
+      "rotationDegrees": 0.0,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.5,
+    "maxAcceleration": 2.75,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 45.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Auto_2PieceDisruptor",
+  "previewStartingState": {
+    "rotation": 0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

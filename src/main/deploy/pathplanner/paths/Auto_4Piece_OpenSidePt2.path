@@ -1,0 +1,92 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.5,
+        "y": 4.104991076285218
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.85,
+        "y": 4.104991076285218
+      },
+      "isLocked": false,
+      "linkedName": "Auto_4Piece_OpenSidePt1_End"
+    },
+    {
+      "anchor": {
+        "x": 2.9456464934451096,
+        "y": 5.566175893554617
+      },
+      "prevControl": {
+        "x": 2.9323889698781755,
+        "y": 4.919033500360632
+      },
+      "nextControl": {
+        "x": 2.95470254481735,
+        "y": 6.008230906946126
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.3457054557092607,
+        "y": 6.514774562567992
+      },
+      "prevControl": {
+        "x": 2.353362818459128,
+        "y": 6.3786563680143855
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Auto_4Piece_OpenSidePt2_End"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.8,
+      "rotationDegrees": 90.0,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "Intake",
+      "waypointRelativePos": 0.9,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "PickupNoteAndTransfer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.6,
+    "maxAcceleration": 1.8,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 33.68,
+    "rotateFast": true
+  },
+  "reversed": false,
+  "folder": "Auto_4PieceOpenSide",
+  "previewStartingState": {
+    "rotation": 0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}
